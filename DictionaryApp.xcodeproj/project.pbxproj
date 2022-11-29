@@ -16,6 +16,16 @@
 		1833C17D29364A8E00207CE5 /* AictionaryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833C17C29364A8E00207CE5 /* AictionaryAppTests.swift */; };
 		1833C18729364A8E00207CE5 /* AictionaryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833C18629364A8E00207CE5 /* AictionaryAppUITests.swift */; };
 		1833C18929364A8E00207CE5 /* AictionaryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833C18829364A8E00207CE5 /* AictionaryAppUITestsLaunchTests.swift */; };
+		1833C19629364C8E00207CE5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833C19529364C8E00207CE5 /* TableViewCell.swift */; };
+		1833C1982936501000207CE5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833C1972936501000207CE5 /* DetailViewController.swift */; };
+		1833C19A293651B600207CE5 /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833C199293651B600207CE5 /* Kelimeler.swift */; };
+		1833C19E29365ADA00207CE5 /* Kelimelerdao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833C19D29365ADA00207CE5 /* Kelimelerdao.swift */; };
+		1833C1AB29365B1000207CE5 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C1A029365B1000207CE5 /* FMDatabasePool.m */; };
+		1833C1AC29365B1000207CE5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C1A329365B1000207CE5 /* FMDatabase.m */; };
+		1833C1AD29365B1000207CE5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C1A429365B1000207CE5 /* FMResultSet.m */; };
+		1833C1AE29365B1000207CE5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C1A629365B1000207CE5 /* FMDatabaseAdditions.m */; };
+		1833C1AF29365B1000207CE5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833C1A829365B1000207CE5 /* FMDatabaseQueue.m */; };
+		1833C1B329365D0400207CE5 /* sozluk.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1833C1B229365D0400207CE5 /* sozluk.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1833C16229364A8D00207CE5 /* AictionaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AictionaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833C16229364A8D00207CE5 /* DictionaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1833C16529364A8D00207CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1833C16729364A8D00207CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1833C16929364A8D00207CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +54,29 @@
 		1833C16E29364A8E00207CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1833C17129364A8E00207CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1833C17329364A8E00207CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1833C17829364A8E00207CE5 /* AictionaryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AictionaryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833C17829364A8E00207CE5 /* DictionaryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1833C17C29364A8E00207CE5 /* AictionaryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AictionaryAppTests.swift; sourceTree = "<group>"; };
-		1833C18229364A8E00207CE5 /* AictionaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AictionaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833C18229364A8E00207CE5 /* DictionaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1833C18629364A8E00207CE5 /* AictionaryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AictionaryAppUITests.swift; sourceTree = "<group>"; };
 		1833C18829364A8E00207CE5 /* AictionaryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AictionaryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1833C19529364C8E00207CE5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1833C1972936501000207CE5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1833C199293651B600207CE5 /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
+		1833C19D29365ADA00207CE5 /* Kelimelerdao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimelerdao.swift; sourceTree = "<group>"; };
+		1833C19F29365B0F00207CE5 /* DictionaryApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DictionaryApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1833C1A029365B1000207CE5 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		1833C1A129365B1000207CE5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		1833C1A229365B1000207CE5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1833C1A329365B1000207CE5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1833C1A429365B1000207CE5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		1833C1A529365B1000207CE5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1833C1A629365B1000207CE5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1833C1A729365B1000207CE5 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1833C1A829365B1000207CE5 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1833C1A929365B1000207CE5 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1833C1AA29365B1000207CE5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1833C1B129365BCF00207CE5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1833C1B229365D0400207CE5 /* sozluk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sozluk.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,18 +108,19 @@
 			isa = PBXGroup;
 			children = (
 				1833C16429364A8D00207CE5 /* AictionaryApp */,
-				1833C17B29364A8E00207CE5 /* AictionaryAppTests */,
-				1833C18529364A8E00207CE5 /* AictionaryAppUITests */,
+				1833C17B29364A8E00207CE5 /* DictionaryAppTests */,
+				1833C18529364A8E00207CE5 /* DictionaryAppUITests */,
 				1833C16329364A8D00207CE5 /* Products */,
+				1833C1B029365BCF00207CE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1833C16329364A8D00207CE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1833C16229364A8D00207CE5 /* AictionaryApp.app */,
-				1833C17829364A8E00207CE5 /* AictionaryAppTests.xctest */,
-				1833C18229364A8E00207CE5 /* AictionaryAppUITests.xctest */,
+				1833C16229364A8D00207CE5 /* DictionaryApp.app */,
+				1833C17829364A8E00207CE5 /* DictionaryAppTests.xctest */,
+				1833C18229364A8E00207CE5 /* DictionaryAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +128,7 @@
 		1833C16429364A8D00207CE5 /* AictionaryApp */ = {
 			isa = PBXGroup;
 			children = (
+				1833C1B229365D0400207CE5 /* sozluk.sqlite */,
 				1833C16529364A8D00207CE5 /* AppDelegate.swift */,
 				1833C16729364A8D00207CE5 /* SceneDelegate.swift */,
 				1833C16929364A8D00207CE5 /* ViewController.swift */,
@@ -106,33 +136,57 @@
 				1833C16E29364A8E00207CE5 /* Assets.xcassets */,
 				1833C17029364A8E00207CE5 /* LaunchScreen.storyboard */,
 				1833C17329364A8E00207CE5 /* Info.plist */,
+				1833C19529364C8E00207CE5 /* TableViewCell.swift */,
+				1833C1972936501000207CE5 /* DetailViewController.swift */,
+				1833C199293651B600207CE5 /* Kelimeler.swift */,
+				1833C19D29365ADA00207CE5 /* Kelimelerdao.swift */,
+				1833C1A529365B1000207CE5 /* FMDatabase.h */,
+				1833C1A329365B1000207CE5 /* FMDatabase.m */,
+				1833C1A229365B1000207CE5 /* FMDatabaseAdditions.h */,
+				1833C1A629365B1000207CE5 /* FMDatabaseAdditions.m */,
+				1833C1A929365B1000207CE5 /* FMDatabasePool.h */,
+				1833C1A029365B1000207CE5 /* FMDatabasePool.m */,
+				1833C1AA29365B1000207CE5 /* FMDatabaseQueue.h */,
+				1833C1A829365B1000207CE5 /* FMDatabaseQueue.m */,
+				1833C1A729365B1000207CE5 /* FMDB.h */,
+				1833C1A129365B1000207CE5 /* FMResultSet.h */,
+				1833C1A429365B1000207CE5 /* FMResultSet.m */,
+				1833C19F29365B0F00207CE5 /* DictionaryApp-Bridging-Header.h */,
 			);
 			path = AictionaryApp;
 			sourceTree = "<group>";
 		};
-		1833C17B29364A8E00207CE5 /* AictionaryAppTests */ = {
+		1833C17B29364A8E00207CE5 /* DictionaryAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				1833C17C29364A8E00207CE5 /* AictionaryAppTests.swift */,
 			);
-			path = AictionaryAppTests;
+			path = DictionaryAppTests;
 			sourceTree = "<group>";
 		};
-		1833C18529364A8E00207CE5 /* AictionaryAppUITests */ = {
+		1833C18529364A8E00207CE5 /* DictionaryAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				1833C18629364A8E00207CE5 /* AictionaryAppUITests.swift */,
 				1833C18829364A8E00207CE5 /* AictionaryAppUITestsLaunchTests.swift */,
 			);
-			path = AictionaryAppUITests;
+			path = DictionaryAppUITests;
+			sourceTree = "<group>";
+		};
+		1833C1B029365BCF00207CE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1833C1B129365BCF00207CE5 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1833C16129364A8D00207CE5 /* AictionaryApp */ = {
+		1833C16129364A8D00207CE5 /* DictionaryApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1833C18C29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "AictionaryApp" */;
+			buildConfigurationList = 1833C18C29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "DictionaryApp" */;
 			buildPhases = (
 				1833C15E29364A8D00207CE5 /* Sources */,
 				1833C15F29364A8D00207CE5 /* Frameworks */,
@@ -142,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = AictionaryApp;
+			name = DictionaryApp;
 			productName = AictionaryApp;
-			productReference = 1833C16229364A8D00207CE5 /* AictionaryApp.app */;
+			productReference = 1833C16229364A8D00207CE5 /* DictionaryApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1833C17729364A8E00207CE5 /* AictionaryAppTests */ = {
+		1833C17729364A8E00207CE5 /* DictionaryAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1833C18F29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "AictionaryAppTests" */;
+			buildConfigurationList = 1833C18F29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "DictionaryAppTests" */;
 			buildPhases = (
 				1833C17429364A8E00207CE5 /* Sources */,
 				1833C17529364A8E00207CE5 /* Frameworks */,
@@ -160,14 +214,14 @@
 			dependencies = (
 				1833C17A29364A8E00207CE5 /* PBXTargetDependency */,
 			);
-			name = AictionaryAppTests;
+			name = DictionaryAppTests;
 			productName = AictionaryAppTests;
-			productReference = 1833C17829364A8E00207CE5 /* AictionaryAppTests.xctest */;
+			productReference = 1833C17829364A8E00207CE5 /* DictionaryAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1833C18129364A8E00207CE5 /* AictionaryAppUITests */ = {
+		1833C18129364A8E00207CE5 /* DictionaryAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1833C19229364A8E00207CE5 /* Build configuration list for PBXNativeTarget "AictionaryAppUITests" */;
+			buildConfigurationList = 1833C19229364A8E00207CE5 /* Build configuration list for PBXNativeTarget "DictionaryAppUITests" */;
 			buildPhases = (
 				1833C17E29364A8E00207CE5 /* Sources */,
 				1833C17F29364A8E00207CE5 /* Frameworks */,
@@ -178,9 +232,9 @@
 			dependencies = (
 				1833C18429364A8E00207CE5 /* PBXTargetDependency */,
 			);
-			name = AictionaryAppUITests;
+			name = DictionaryAppUITests;
 			productName = AictionaryAppUITests;
-			productReference = 1833C18229364A8E00207CE5 /* AictionaryAppUITests.xctest */;
+			productReference = 1833C18229364A8E00207CE5 /* DictionaryAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -195,6 +249,7 @@
 				TargetAttributes = {
 					1833C16129364A8D00207CE5 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					1833C17729364A8E00207CE5 = {
 						CreatedOnToolsVersion = 14.1;
@@ -206,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1833C15D29364A8D00207CE5 /* Build configuration list for PBXProject "AictionaryApp" */;
+			buildConfigurationList = 1833C15D29364A8D00207CE5 /* Build configuration list for PBXProject "DictionaryApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +274,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1833C16129364A8D00207CE5 /* AictionaryApp */,
-				1833C17729364A8E00207CE5 /* AictionaryAppTests */,
-				1833C18129364A8E00207CE5 /* AictionaryAppUITests */,
+				1833C16129364A8D00207CE5 /* DictionaryApp */,
+				1833C17729364A8E00207CE5 /* DictionaryAppTests */,
+				1833C18129364A8E00207CE5 /* DictionaryAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1833C17229364A8E00207CE5 /* LaunchScreen.storyboard in Resources */,
+				1833C1B329365D0400207CE5 /* sozluk.sqlite in Resources */,
 				1833C16F29364A8E00207CE5 /* Assets.xcassets in Resources */,
 				1833C16D29364A8D00207CE5 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +314,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1833C19A293651B600207CE5 /* Kelimeler.swift in Sources */,
 				1833C16A29364A8D00207CE5 /* ViewController.swift in Sources */,
+				1833C19629364C8E00207CE5 /* TableViewCell.swift in Sources */,
+				1833C1AC29365B1000207CE5 /* FMDatabase.m in Sources */,
+				1833C1AD29365B1000207CE5 /* FMResultSet.m in Sources */,
+				1833C1AF29365B1000207CE5 /* FMDatabaseQueue.m in Sources */,
+				1833C1982936501000207CE5 /* DetailViewController.swift in Sources */,
 				1833C16629364A8D00207CE5 /* AppDelegate.swift in Sources */,
+				1833C1AE29365B1000207CE5 /* FMDatabaseAdditions.m in Sources */,
+				1833C1AB29365B1000207CE5 /* FMDatabasePool.m in Sources */,
 				1833C16829364A8D00207CE5 /* SceneDelegate.swift in Sources */,
+				1833C19E29365ADA00207CE5 /* Kelimelerdao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +351,12 @@
 /* Begin PBXTargetDependency section */
 		1833C17A29364A8E00207CE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1833C16129364A8D00207CE5 /* AictionaryApp */;
+			target = 1833C16129364A8D00207CE5 /* DictionaryApp */;
 			targetProxy = 1833C17929364A8E00207CE5 /* PBXContainerItemProxy */;
 		};
 		1833C18429364A8E00207CE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1833C16129364A8D00207CE5 /* AictionaryApp */;
+			target = 1833C16129364A8D00207CE5 /* DictionaryApp */;
 			targetProxy = 1833C18329364A8E00207CE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4N2C39FB2K;
@@ -450,9 +516,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.AictionaryApp;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.DictionaryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AictionaryApp/DictionaryApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4N2C39FB2K;
@@ -478,9 +547,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.AictionaryApp;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.DictionaryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AictionaryApp/DictionaryApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -502,7 +572,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AictionaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AictionaryApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictionaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictionaryApp";
 			};
 			name = Debug;
 		};
@@ -522,7 +592,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AictionaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AictionaryApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictionaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictionaryApp";
 			};
 			name = Release;
 		};
@@ -565,7 +635,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1833C15D29364A8D00207CE5 /* Build configuration list for PBXProject "AictionaryApp" */ = {
+		1833C15D29364A8D00207CE5 /* Build configuration list for PBXProject "DictionaryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1833C18A29364A8E00207CE5 /* Debug */,
@@ -574,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1833C18C29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "AictionaryApp" */ = {
+		1833C18C29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "DictionaryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1833C18D29364A8E00207CE5 /* Debug */,
@@ -583,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1833C18F29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "AictionaryAppTests" */ = {
+		1833C18F29364A8E00207CE5 /* Build configuration list for PBXNativeTarget "DictionaryAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1833C19029364A8E00207CE5 /* Debug */,
@@ -592,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1833C19229364A8E00207CE5 /* Build configuration list for PBXNativeTarget "AictionaryAppUITests" */ = {
+		1833C19229364A8E00207CE5 /* Build configuration list for PBXNativeTarget "DictionaryAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1833C19329364A8E00207CE5 /* Debug */,
